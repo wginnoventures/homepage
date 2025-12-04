@@ -3,14 +3,14 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center overflow-hidden p-4">
-      <div className="flex flex-col items-center justify-center gap-4 sm:gap-6 md:gap-8 max-h-[calc(100vh-8rem)]">
+      <div className="flex flex-col items-center justify-center gap-0 max-h-[calc(100vh-8rem)]">
         <Image
           src="/logo.svg"
           alt="WG Innoventures Logo"
-          width={300}
-          height={300}
+          width={600}
+          height={600}
           priority
-          className="w-48 h-auto sm:w-56 md:w-64 lg:w-80 flex-shrink-0"
+          className="w-96 h-auto sm:w-[28rem] md:w-[32rem] lg:w-[40rem] flex-shrink-0"
         />
         <div className="text-content flex flex-col items-center gap-2 sm:gap-3 md:gap-4 flex-shrink">
           <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold text-center">
