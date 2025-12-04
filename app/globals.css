@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  background-color: #4D9B3A;
+}
+
+@media (max-height: 530px) {
+  .text-content {
+    display: none;
+  }
+}
